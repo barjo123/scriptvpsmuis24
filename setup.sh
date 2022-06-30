@@ -50,8 +50,8 @@ if [ -f "/etc/xray/domain" ]; then
 echo "Script Already Installed"
 exit 0
 fi
-mkdir /var/lib/kelvintan1101;
-echo "IP=" >> /var/lib/kelvintan1101/ipvps.conf
+mkdir /var/lib/techsolution11;
+echo "IP=" >> /var/lib/techsolution11/ipvps.conf
 wget https://${akbarvpn}/cf.sh && chmod +x cf.sh && ./cf.sh
 #install v2ray
 wget https://${akbarvpnnnnnn}/ins-xray.sh && chmod +x ins-xray.sh && screen -S xray ./ins-xray.sh
